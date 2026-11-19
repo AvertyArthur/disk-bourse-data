@@ -1,0 +1,35 @@
+name: Données Desk Bourse
+
+on:
+  schedule:
+    - cron: "15 5 * * 1-5"   # 6h15 heure de Paris en hiver (7h15 en été), jours ouvrés
+  workflow_dispatch: {}        # lancement manuel depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: donnees
+  cancel-in-progress: false
+
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Installer OpenBB
+        run: pip install -r requirements.txt
+      - name: Récupérer les cours et calculer les indicateurs
+        run: python fetch.py
+      - name: Enregistrer les données
+        run: |
+          git config user.name "desk-bourse-bot"
+          git config user.email "desk-bourse-bot@users.noreply.github.com"
+          git add data/marche.json
+          git diff --cached --quiet || git commit -m "Données du $(date -u +%Y-%m-%d)"
+          git push
