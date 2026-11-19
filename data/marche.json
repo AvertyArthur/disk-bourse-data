@@ -1,5 +1,5 @@
 {
- "majLe": "2026-11-19T13:57:11+00:00",
+ "majLe": "2026-11-19T14:37:03+00:00",
  "source": "OpenBB (yfinance)",
  "valeurs": {
   "DCAM": {
@@ -7,16 +7,16 @@
    "nom": "Amundi PEA Monde (MSCI World)",
    "ticker": "DCAM.PA",
    "date": "2026-11-19",
-   "prix": 6.207,
-   "var1j": 0.6,
-   "var1s": -2.79,
-   "var1m": -2.51,
-   "var3m": 1.4,
-   "var1a": 16.61,
-   "sma20": 6.2877,
-   "sma50": 6.2861,
+   "prix": 6.21,
+   "var1j": 0.65,
+   "var1s": -2.74,
+   "var1m": -2.47,
+   "var3m": 1.45,
+   "var1a": 16.66,
+   "sma20": 6.2879,
+   "sma50": 6.2862,
    "sma200": 5.9503,
-   "rsi": 43.8,
+   "rsi": 44.1,
    "tendance": "neutre",
    "support": 6.094,
    "resistance": 6.415,
@@ -1223,25 +1223,31 @@
     ],
     [
      "2026-11-19",
-     6.207
+     6.21
     ]
-   ]
+   ],
+   "fondamentaux": {
+    "nomComplet": "Amundi PEA Monde (MSCI World) UCITS ETF",
+    "per": 21.3,
+    "rendementDiv": 0.0
+   },
+   "actus": []
   },
   "PSP5": {
    "sym": "PSP5",
    "nom": "Amundi PEA S&P 500 Screened",
    "ticker": "PSP5.PA",
    "date": "2026-11-19",
-   "prix": 59.13,
-   "var1j": 0.78,
-   "var1s": -2.62,
-   "var1m": -2.57,
-   "var3m": 2.64,
-   "var1a": 16.58,
-   "sma20": 59.7725,
-   "sma50": 59.842,
-   "sma200": 56.1886,
-   "rsi": 45.3,
+   "prix": 59.15,
+   "var1j": 0.82,
+   "var1s": -2.59,
+   "var1m": -2.54,
+   "var3m": 2.67,
+   "var1a": 16.62,
+   "sma20": 59.7735,
+   "sma50": 59.8424,
+   "sma200": 56.1887,
+   "rsi": 45.5,
    "tendance": "neutre",
    "support": 57.8,
    "resistance": 61.18,
@@ -2448,25 +2454,32 @@
     ],
     [
      "2026-11-19",
-     59.13
+     59.15
     ]
-   ]
+   ],
+   "fondamentaux": {
+    "nomComplet": "Amundi PEA S&P 500 UCITS ETF Acc",
+    "per": 23.2,
+    "rendementDiv": 0.0,
+    "frais": 0.12
+   },
+   "actus": []
   },
   "SU": {
    "sym": "SU",
    "nom": "Schneider Electric",
    "ticker": "SU.PA",
    "date": "2026-11-19",
-   "prix": 239.45,
-   "var1j": 0.59,
-   "var1s": -2.19,
-   "var1m": -3.87,
-   "var3m": -17.94,
-   "var1a": 7.47,
-   "sma20": 238.275,
-   "sma50": 259.947,
-   "sma200": 268.5315,
-   "rsi": 44.4,
+   "prix": 238.8,
+   "var1j": 0.32,
+   "var1s": -2.45,
+   "var1m": -4.13,
+   "var3m": -18.16,
+   "var1a": 7.18,
+   "sma20": 238.2425,
+   "sma50": 259.934,
+   "sma200": 268.5283,
+   "rsi": 43.7,
    "tendance": "baissiere",
    "support": 223.45,
    "resistance": 249.55,
@@ -3673,8 +3686,53 @@
     ],
     [
      "2026-11-19",
-     239.45
+     238.8
     ]
+   ],
+   "fondamentaux": {
+    "nomComplet": "Schneider Electric S.E.",
+    "secteur": "Industrials",
+    "pays": "France",
+    "per": 28.7,
+    "perPrevu": 19.0,
+    "rendementDiv": 1.76,
+    "capitalisation": 140326797312.0,
+    "objectifAnalystes": 323.48,
+    "objectifBas": 249.95,
+    "objectifHaut": 370.0,
+    "avisAnalystes": "buy",
+    "nbAnalystes": 23.0,
+    "description": "Schneider Electric S.E. engages in the energy management and industrial automation businesses worldwide. The company offers inverters, mounting frames, solar panels, other solar equipment, wind farm microgrid, and others; building management systems; power metering systems for buildings; smart monitoring and regulation of electricity or heat in buildings, such as thermostats and controls for light"
+   },
+   "actus": [
+    {
+     "titre": "Schneider Electric warns high power costs could push AI investment out of Europe",
+     "source": "Reuters",
+     "date": "2026-11-19T13:52:50Z",
+     "url": "https://finance.yahoo.com/energy/articles/schneider-electric-warns-high-power-135250409.html",
+     "resume": "Nov 19 - High energy costs, insufficient grid investment and fragmented regulation risk slowing Europe's AI data-centre expansion and pushing investment to other regions, Schneider Electric's chief"
+    },
+    {
+     "titre": "European shares log record close on Siemens, CoreWeave-fueled AI optimism",
+     "source": "Reuters",
+     "date": "2026-11-11T17:52:44Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-near-record-high-102945417.html",
+     "resume": "By Anjana Jayakrishnan Nair, Johann M Cherian and Avinash P Nov 11 (Reuters) - European shares notched a record close on Wednesday and ended just shy of an intraday record high, as upbeat forecasts"
+    },
+    {
+     "titre": "Is PTC (PTC) Fully Priced With A $205 Deal On The Table?",
+     "source": "Simply Wall St.",
+     "date": "2026-11-08T07:13:19Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ptc-ptc-fully-priced-205-071319174.html",
+     "resume": "PTC Inc. has delivered a solid multi year share price gain while also agreeing to a cash acquisition at US$205 per share, which puts fresh focus on whether the current US$195.07 price is adequately explained by its earnings power. With the stock no longer just trading on standalo"
+    },
+    {
+     "titre": "Europe Stocks Dip, Swiss Franc Rises as Investors Seek Havens",
+     "source": "The Wall Street Journal",
+     "date": "2026-11-06T09:43:23Z",
+     "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026/card/europe-stocks-dip-swiss-franc-rises-as-investors-seek-havens-IowKixvslOJ8oNWGaROV?siteid=yhoof2&yptr=yahoo",
+     "resume": "European stocks are declining as markets around the world catch up with yesterday's panic selling in U.S. markets."
+    }
    ]
   },
   "BNP": {
@@ -3682,16 +3740,16 @@
    "nom": "BNP Paribas",
    "ticker": "BNP.PA",
    "date": "2026-11-19",
-   "prix": 92.79,
-   "var1j": 0.86,
-   "var1s": -3.02,
-   "var1m": 6.89,
-   "var3m": -13.12,
-   "var1a": 31.77,
-   "sma20": 90.873,
-   "sma50": 93.1442,
-   "sma200": 95.5341,
-   "rsi": 51.8,
+   "prix": 93.06,
+   "var1j": 1.15,
+   "var1s": -2.74,
+   "var1m": 7.2,
+   "var3m": -12.87,
+   "var1a": 32.15,
+   "sma20": 90.8865,
+   "sma50": 93.1496,
+   "sma200": 95.5355,
+   "rsi": 52.6,
    "tendance": "baissiere",
    "support": 81.88,
    "resistance": 97.1,
@@ -4898,8 +4956,53 @@
     ],
     [
      "2026-11-19",
-     92.79
+     93.06
     ]
+   ],
+   "fondamentaux": {
+    "nomComplet": "BNP Paribas SA",
+    "secteur": "Financial Services",
+    "pays": "France",
+    "per": 8.1,
+    "perPrevu": 7.2,
+    "rendementDiv": 6.3,
+    "capitalisation": 101993758720.0,
+    "objectifAnalystes": 121.08,
+    "objectifBas": 96.5,
+    "objectifHaut": 142.0,
+    "avisAnalystes": "buy",
+    "nbAnalystes": 19.0,
+    "description": "BNP Paribas SA provides various banking and financial products and services in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. It operates through three divisions: Corporate & Institutional Banking; Commercial, Personal Banking & Services; and Investment & Protection Services. The Corporate & Institutional Banking division offers capital market, securities, financing, risk man"
+   },
+   "actus": [
+    {
+     "titre": "BNP Paribas plans fewer branches and pivot to wealthier clients at BNL unit",
+     "source": "Private Banker International",
+     "date": "2026-11-19T11:59:51Z",
+     "url": "https://www.privatebankerinternational.com/news/bnp-paribas-bnl-wealthier-clients-branches/",
+     "resume": "Under plan, the subsidiary is pivoting its priorities towards corporate banking, private banking, and wealth management."
+    },
+    {
+     "titre": "BNP Paribas’ BNL targets over 20% return on equity by 2030 in strategy shift",
+     "source": "Investing.com",
+     "date": "2026-11-18T06:59:42Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-bnl-targets-over-065942247.html",
+     "resume": "Investing.com -- BNP Paribas’ (EPA:BNPP) Italian unit BNL aims to raise its pre-tax return on notional equity to more than 20% by 2030 by shifting its focus from mass-market retail banking towards wealth management, private and corporate banking, while keeping cost growth below i"
+    },
+    {
+     "titre": "What Could Full Ownership Changes Mean For BNP Paribas (ENXTPA:BNP)?",
+     "source": "Simply Wall St.",
+     "date": "2026-11-18T05:21:09Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/could-full-ownership-changes-mean-052109564.html",
+     "resume": "BNP Paribas (ENXTPA:BNP) is involved in talks that could see Korea Investment Finance Holdings acquire full control of Cardif Life Insurance. Shinhan Bank is negotiating the sale of its stake in BNP Paribas Cardif Life Insurance to Korea Investment Finance Holdings. The potential"
+    },
+    {
+     "titre": "BNP Paribas (ENXTPA:BNP), Why Is It Back In The Spotlight?",
+     "source": "Simply Wall St.",
+     "date": "2026-11-18T04:34:39Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-enxtpa-bnp-why-043439683.html",
+     "resume": "BNP Paribas (ENXTPA:BNP) has moved into the spotlight after kicking off a sizeable share buyback. Repurchases and cancellations are now underway under an €12.1b programme capped at €110 per share. Recent trading has been choppy for BNP Paribas. The share price is down 1.7% over t"
+    }
    ]
   },
   "LVMH": {
@@ -4907,22 +5010,22 @@
    "nom": "LVMH",
    "ticker": "MC.PA",
    "date": "2026-11-19",
-   "prix": 392.7,
-   "var1j": 1.19,
-   "var1s": -2.97,
-   "var1m": 1.06,
-   "var3m": -14.51,
-   "var1a": -36.83,
-   "sma20": 397.19,
-   "sma50": 395.424,
-   "sma200": 458.8792,
-   "rsi": 45.6,
+   "prix": 394.15,
+   "var1j": 1.56,
+   "var1s": -2.61,
+   "var1m": 1.43,
+   "var3m": -14.19,
+   "var1a": -36.6,
+   "sma20": 397.2625,
+   "sma50": 395.453,
+   "sma200": 458.8865,
+   "rsi": 46.8,
    "tendance": "baissiere",
    "support": 380.05,
    "resistance": 431.15,
    "plusBas52s": 375.65,
    "plusHaut52s": 654.3,
-   "volatilite20j": 24.0,
+   "volatilite20j": 24.3,
    "sma50Pente": "baisse",
    "closes": [
     [
@@ -6123,31 +6226,76 @@
     ],
     [
      "2026-11-19",
-     392.7
+     394.15
     ]
+   ],
+   "fondamentaux": {
+    "nomComplet": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
+    "secteur": "Consumer Cyclical",
+    "pays": "France",
+    "per": 18.0,
+    "perPrevu": 16.5,
+    "rendementDiv": 3.35,
+    "capitalisation": 193406418944.0,
+    "objectifAnalystes": 491.36,
+    "objectifBas": 415.0,
+    "objectifHaut": 590.0,
+    "avisAnalystes": "buy",
+    "nbAnalystes": 27.0,
+    "description": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne, together with its subsidiaries, operates as a luxury goods company worldwide. It offers wine and spirit products under the Ao Yun, Ardbeg, Armand de Brignac, Belvedere, Bodega Numanthia, Chandon, Cheval des Andes, Château Cheval Blanc, Château Galoupet, Château d'Yquem, Château d'Esclans, Cloudy Bay, Colgin Cellars, Dom Pérignon, Domaine des "
+   },
+   "actus": [
+    {
+     "titre": "Verizon Trades Network Claims for Pop-Culture Buzz",
+     "source": "The Wall Street Journal",
+     "date": "2026-11-16T14:18:00Z",
+     "url": "https://www.wsj.com/cmo-today/verizon-trades-network-claims-for-pop-culture-buzz-78295970?siteid=yhoof2&yptr=yahoo",
+     "resume": "Plus, luxury brands are rethinking their aversion to price cuts as mid-tier growth evaporates."
+    },
+    {
+     "titre": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend.",
+     "source": "The Wall Street Journal",
+     "date": "2026-11-15T10:30:00Z",
+     "url": "https://www.wsj.com/business/retail/gucci-is-cutting-prices-louis-vuitton-is-reluctant-to-follow-the-trend-50e4b218?siteid=yhoof2&yptr=yahoo",
+     "resume": "With luxury demand weak, executives are debating one of the sector’s big taboos."
+    },
+    {
+     "titre": "23% Undervalued? LVMH Moët Hennessy Louis Vuitton Société Européenne (ENXTPA:MC) As Tequila Expansion Continues",
+     "source": "Simply Wall St.",
+     "date": "2026-11-15T05:12:20Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/23-undervalued-lvmh-mo-t-051220264.html",
+     "resume": "LVMH Moët Hennessy - Louis Vuitton Société Européenne (ENXTPA:MC) drew fresh attention after Moët Hennessy took majority control of Volcan de mi Tierra Tequila, strengthening its position in a growing premium agave spirits partnership. LVMH Moët Hennessy - Louis Vuitton Société E"
+    },
+    {
+     "titre": "LVMH (ENXTPA:MC) Stock Could Be 11% Undervalued On Cash Flow Strength",
+     "source": "Simply Wall St.",
+     "date": "2026-11-15T04:17:21Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/lvmh-enxtpa-mc-stock-could-041721864.html",
+     "resume": "LVMH Moët Hennessy - Louis Vuitton Société Européenne has seen its share price under pressure in recent years, which naturally puts the focus on what investors are paying for its underlying cash flows today. With the stock now trading around €403.45, the key issue is whether that"
+    }
    ]
   },
   "NVDA": {
    "sym": "NVDA",
    "nom": "Nvidia",
    "ticker": "NVDA",
-   "date": "2026-11-18",
-   "prix": 150.96,
-   "var1j": -2.89,
-   "var1s": -13.11,
-   "var1m": -30.26,
-   "var3m": -30.39,
-   "var1a": -19.1,
-   "sma20": 189.04,
-   "sma50": 210.3032,
-   "sma200": 203.7182,
-   "rsi": 21.1,
+   "date": "2026-11-19",
+   "prix": 156.76,
+   "var1j": 3.84,
+   "var1s": -5.67,
+   "var1m": -29.38,
+   "var3m": -26.99,
+   "var1a": -13.56,
+   "sma20": 186.2675,
+   "sma50": 209.0712,
+   "sma200": 203.6311,
+   "rsi": 27.4,
    "tendance": "baissiere",
    "support": 148.8,
    "resistance": 219.99,
    "plusBas52s": 148.8,
    "plusHaut52s": 243.37,
-   "volatilite20j": 50.5,
+   "volatilite20j": 53.4,
    "sma50Pente": "baisse",
    "closes": [
     [
@@ -7341,7 +7489,56 @@
     [
      "2026-11-18",
      150.96
+    ],
+    [
+     "2026-11-19",
+     156.76
     ]
+   ],
+   "fondamentaux": {
+    "nomComplet": "NVIDIA Corporation",
+    "secteur": "Technology",
+    "pays": "United States",
+    "per": 16.9,
+    "perPrevu": 9.4,
+    "rendementDiv": 0.34,
+    "capitalisation": 3788181340160.0,
+    "objectifAnalystes": 246.67,
+    "objectifBas": 130.0,
+    "objectifHaut": 425.0,
+    "avisAnalystes": "buy",
+    "nbAnalystes": 55.0,
+    "description": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and"
+   },
+   "actus": [
+    {
+     "titre": "Nvidia, AMD, Micron stocks lead chip sector higher amid Anthropic IPO optimism",
+     "source": "Yahoo Finance",
+     "date": "2026-11-19T13:44:08Z",
+     "url": "https://finance.yahoo.com/markets/article/copy-nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-134408467.html",
+     "resume": "The chip sector rose on Thursday, led by shares of semiconductor giants AMD and Nvidia, as well as memory chip maker Micron."
+    },
+    {
+     "titre": "Nvidia interim CEO says 'we've got this' amid leadership transition",
+     "source": "Yahoo Finance Video",
+     "date": "2026-11-19T14:05:36Z",
+     "url": "https://finance.yahoo.com/video/nvidia-interim-ceo-says-weve-got-this-amid-leadership-transition-140536009.html",
+     "resume": "Nvidia (NVDA) interim CEO Colette Kress held a town hall meeting with employees to confirm that the company aims to move past the Jensen Huang era following his departure from the AI chipmaker.\n\nThe 8:30 Hosts Julie Hyman, Jake Conley, and Pras Subramanian discuss what this next "
+    },
+    {
+     "titre": "Stalemates over semiconductors and rare earth minerals appear little changed as Trump heads home from China",
+     "source": "Yahoo Finance",
+     "date": "2026-11-19T12:15:55Z",
+     "url": "https://finance.yahoo.com/markets/article/stalemates-over-semiconductors-and-rare-earth-minerals-appear-little-changed-as-trump-heads-home-from-china-121555352.html",
+     "resume": "The leaders actively sidestepped difficult topics on the sidelines of the Asia-Pacific Economic Cooperation (APEC) leaders' meeting."
+    },
+    {
+     "titre": "SpaceX's $40 Billion Nvidia Chip Deal Comes With a Surprising Twist",
+     "source": "GuruFocus.com",
+     "date": "2026-11-19T14:25:47Z",
+     "url": "https://finance.yahoo.com/technology/ai/articles/spacexs-40-billion-nvidia-chip-142547424.html",
+     "resume": "The company is exploring a financing structure designed to keep new debt off its balance sheet."
+    }
    ]
   },
   "BTC": {
@@ -7349,22 +7546,22 @@
    "nom": "Bitcoin",
    "ticker": "BTC-USD",
    "date": "2026-11-19",
-   "prix": 63970.9297,
-   "var1j": 1.56,
-   "var1s": -0.25,
-   "var1m": -17.75,
-   "var3m": -16.27,
-   "var1a": -9.25,
-   "sma20": 72038.6596,
-   "sma50": 78186.4818,
-   "sma200": 72647.0629,
-   "rsi": 25.9,
+   "prix": 63825.5508,
+   "var1j": 1.33,
+   "var1s": -0.47,
+   "var1m": -17.94,
+   "var3m": -16.46,
+   "var1a": -9.46,
+   "sma20": 72031.3906,
+   "sma50": 78183.5742,
+   "sma200": 72646.3361,
+   "rsi": 25.3,
    "tendance": "baissiere",
    "support": 62017.3789,
    "resistance": 81079.7891,
    "plusBas52s": 57747.7656,
    "plusHaut52s": 87363.7578,
-   "volatilite20j": 40.9,
+   "volatilite20j": 40.7,
    "sma50Pente": "baisse",
    "closes": [
     [
@@ -8565,8 +8762,38 @@
     ],
     [
      "2026-11-19",
-     63970.9297
+     63825.5508
     ]
+   ],
+   "actus": [
+    {
+     "titre": "Bitcoin ETF Outflows Accelerate Ahead Of Anthropic IPO",
+     "source": "CryptoProwl",
+     "date": "2026-11-19T14:30:00Z",
+     "url": "https://www.cryptoprowl.com/releases/bitcoin-etf-outflows-accelerate-ahead-of-anthropic-ipo-7980",
+     "resume": "Outflows from U.S. spot Bitcoin (CRYPTO: $BTC) exchange-traded funds (ETFs) have accelerated in the lead-up to Anth..."
+    },
+    {
+     "titre": "Block (XYZ), Why Is It Back In Focus?",
+     "source": "Simply Wall St.",
+     "date": "2026-11-19T14:14:48Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/block-xyz-why-back-focus-141448923.html",
+     "resume": "Block (XYZ) is back in focus after ARK Invest rotated away from Solana and Ethereum staking ETFs into crypto linked equities, adding to its position alongside Coinbase and Circle during a recent Bitcoin pullback. In the short term, Block shares have been under pressure. The 7-day"
+    },
+    {
+     "titre": "Family Office CEO: One Day You’ll Have to Explain Why You Skipped Bitcoin",
+     "source": "BeInCrypto",
+     "date": "2026-11-19T14:13:47Z",
+     "url": "https://beincrypto.com/family-office-ceo-warns-ignoring-bitcoin/",
+     "resume": "Rony Vogel says wealth managers who skip Bitcoin will have to explain why, as 89% of family offices hold no crypto."
+    },
+    {
+     "titre": "Stock Market Today: Dow Rises As Walmart Falls On Earnings; Anthropic IPO Set To Soar 25% (Live Coverage)",
+     "source": "Investor's Business Daily",
+     "date": "2026-11-19T13:51:10Z",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-walmart-earnings-anthropic-ipo/?src=A00220&yptr=yahoo",
+     "resume": "Stock Market Today: The Dow Jones index rises Thursday even as Walmart drops on earnings. The Anthropic IPO is set to soar 25%."
+    }
    ]
   },
   "ETH": {
@@ -8574,22 +8801,22 @@
    "nom": "Ethereum",
    "ticker": "ETH-USD",
    "date": "2026-11-19",
-   "prix": 1811.5601,
-   "var1j": 2.07,
-   "var1s": 2.4,
-   "var1m": -19.47,
-   "var3m": -25.97,
-   "var1a": -12.62,
-   "sma20": 2065.584,
-   "sma50": 2307.9401,
-   "sma200": 2132.7317,
-   "rsi": 28.6,
+   "prix": 1806.48,
+   "var1j": 1.79,
+   "var1s": 2.11,
+   "var1m": -19.69,
+   "var3m": -26.18,
+   "var1a": -12.86,
+   "sma20": 2065.33,
+   "sma50": 2307.8385,
+   "sma200": 2132.7063,
+   "rsi": 28.0,
    "tendance": "baissiere",
    "support": 1712.3832,
    "resistance": 2446.0479,
    "plusBas52s": 1506.5057,
    "plusHaut52s": 2805.499,
-   "volatilite20j": 57.1,
+   "volatilite20j": 56.9,
    "sma50Pente": "baisse",
    "closes": [
     [
@@ -9790,8 +10017,38 @@
     ],
     [
      "2026-11-19",
-     1811.5601
+     1806.48
     ]
+   ],
+   "actus": [
+    {
+     "titre": "Block (XYZ), Why Is It Back In Focus?",
+     "source": "Simply Wall St.",
+     "date": "2026-11-19T14:14:48Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/block-xyz-why-back-focus-141448923.html",
+     "resume": "Block (XYZ) is back in focus after ARK Invest rotated away from Solana and Ethereum staking ETFs into crypto linked equities, adding to its position alongside Coinbase and Circle during a recent Bitcoin pullback. In the short term, Block shares have been under pressure. The 7-day"
+    },
+    {
+     "titre": "Bitcoin Open Interest Drops 20% as Ethereum and Solana Slide Further",
+     "source": "CCN",
+     "date": "2026-11-19T12:47:15Z",
+     "url": "https://www.ccn.com/news/crypto/bitcoin-ethereum-solana-open-interest-drop/",
+     "resume": "Bitcoin open interest fell 20% in two weeks to $17.99 billion, near its lowest level since October 2024. Ethereum and Solana saw steeper declines in…"
+    },
+    {
+     "titre": "This \"Unstoppable\" Cryptocurrency Is Ready to Deliver Massive Gains in 2027",
+     "source": "Motley Fool",
+     "date": "2026-11-19T11:32:02Z",
+     "url": "https://www.fool.com/investing/2026/11/19/this-unstoppable-cryptocurrency-is-ready-to-deliver-massive-gains-in-2027/",
+     "resume": "This fast-rising cryptocurrency is at the intersection of AI and blockchain infrastructure."
+    },
+    {
+     "titre": "Not Bitcoin. Not Ethereum. This Could Be the Best Cryptocurrency to Hold During the Next 5 Years.",
+     "source": "Motley Fool",
+     "date": "2026-11-19T11:20:02Z",
+     "url": "https://www.fool.com/investing/2026/11/19/not-bitcoin-not-ethereum-this-could-be-the-best-cryptocurrency-to-hold-over-the-next-5-years/",
+     "resume": "This popular cryptocurrency has outperformed both Bitcoin and Ethereum since late 2021, and it's not even close."
+    }
    ]
   },
   "SOL": {
@@ -9799,22 +10056,22 @@
    "nom": "Solana",
    "ticker": "SOL-USD",
    "date": "2026-11-19",
-   "prix": 75.14,
-   "var1j": 2.06,
-   "var1s": 7.07,
-   "var1m": -21.31,
-   "var3m": -26.05,
-   "var1a": -13.5,
-   "sma20": 83.8138,
-   "sma50": 98.1879,
-   "sma200": 88.5824,
-   "rsi": 31.4,
+   "prix": 75.36,
+   "var1j": 2.36,
+   "var1s": 7.39,
+   "var1m": -21.08,
+   "var3m": -25.83,
+   "var1a": -13.25,
+   "sma20": 83.8248,
+   "sma50": 98.1923,
+   "sma200": 88.5835,
+   "rsi": 31.9,
    "tendance": "baissiere",
    "support": 67.549,
    "resistance": 97.6954,
    "plusBas52s": 60.4147,
    "plusHaut52s": 124.6174,
-   "volatilite20j": 56.5,
+   "volatilite20j": 56.7,
    "sma50Pente": "baisse",
    "closes": [
     [
@@ -11015,8 +11272,38 @@
     ],
     [
      "2026-11-19",
-     75.14
+     75.36
     ]
+   ],
+   "actus": [
+    {
+     "titre": "Block (XYZ), Why Is It Back In Focus?",
+     "source": "Simply Wall St.",
+     "date": "2026-11-19T14:14:48Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/block-xyz-why-back-focus-141448923.html",
+     "resume": "Block (XYZ) is back in focus after ARK Invest rotated away from Solana and Ethereum staking ETFs into crypto linked equities, adding to its position alongside Coinbase and Circle during a recent Bitcoin pullback. In the short term, Block shares have been under pressure. The 7-day"
+    },
+    {
+     "titre": "Bitcoin Open Interest Drops 20% as Ethereum and Solana Slide Further",
+     "source": "CCN",
+     "date": "2026-11-19T12:47:15Z",
+     "url": "https://www.ccn.com/news/crypto/bitcoin-ethereum-solana-open-interest-drop/",
+     "resume": "Bitcoin open interest fell 20% in two weeks to $17.99 billion, near its lowest level since October 2024. Ethereum and Solana saw steeper declines in…"
+    },
+    {
+     "titre": "Institutions Holding ETH, SOL or HYPE Can Now Borrow Up to Five Years at a $4 Billion Lender",
+     "source": "Unchained",
+     "date": "2026-11-19T11:00:00Z",
+     "url": "https://unchainedcrypto.com/institutions-holding-eth-sol-or-hype-can-now-borrow-up-to-five-years-at-a-4-billion-lender/",
+     "resume": "Two Prime is taking seven more assets as collateral, weeks after its CEO told Unchained that liquidity thins out away from bitcoin."
+    },
+    {
+     "titre": "Crypto asset manager's stock jumps 13% after full Ethereum sale",
+     "source": "TheStreet",
+     "date": "2026-11-18T23:40:15Z",
+     "url": "https://www.thestreet.com/crypto/markets/crypto-asset-managers-stock-jumps-13-after-full-ethereum-sale",
+     "resume": "This company raised $19.3 million by selling Ethereum and part of its Solana holdings to support a $40 million share buyback."
+    }
    ]
   }
  },
@@ -11026,85 +11313,85 @@
    "nom": "CAC 40",
    "ticker": "^FCHI",
    "date": "2026-11-19",
-   "prix": 8133.8398,
-   "var1j": -0.16,
-   "var1s": -2.72,
-   "var1m": 2.68,
-   "var3m": -3.78,
-   "var1a": 2.19,
-   "sma20": 8117.92,
-   "sma50": 8027.8504,
-   "sma200": 8206.5975,
-   "rsi": 50.7,
+   "prix": 8136.27,
+   "var1j": -0.13,
+   "var1s": -2.69,
+   "var1m": 2.71,
+   "var3m": -3.75,
+   "var1a": 2.22,
+   "sma20": 8118.0415,
+   "sma50": 8027.899,
+   "sma200": 8206.6097,
+   "rsi": 50.9,
    "tendance": "neutre",
    "support": 7728.4502,
    "resistance": 8401.8604,
    "plusBas52s": 7505.27,
    "plusHaut52s": 8755.0303,
-   "volatilite20j": 13.0,
+   "volatilite20j": 12.9,
    "sma50Pente": "baisse"
   },
   "SP500": {
    "sym": "SP500",
    "nom": "S&P 500",
    "ticker": "^GSPC",
-   "date": "2026-11-18",
-   "prix": 7323.6299,
-   "var1j": -0.23,
-   "var1s": -3.88,
-   "var1m": -5.04,
-   "var3m": -4.16,
-   "var1a": 9.76,
-   "sma20": 7559.276,
-   "sma50": 7648.5056,
-   "sma200": 7346.5548,
-   "rsi": 36.6,
-   "tendance": "baissiere",
+   "date": "2026-11-19",
+   "prix": 7397.1602,
+   "var1j": 1.0,
+   "var1s": -2.57,
+   "var1m": -4.64,
+   "var3m": -3.61,
+   "var1a": 11.78,
+   "sma20": 7545.9625,
+   "sma50": 7644.6148,
+   "sma200": 7349.127,
+   "rsi": 41.3,
+   "tendance": "neutre",
    "support": 7285.7598,
    "resistance": 7758.4302,
    "plusBas52s": 6316.9102,
    "plusHaut52s": 7844.52,
-   "volatilite20j": 22.7,
+   "volatilite20j": 22.9,
    "sma50Pente": "baisse"
   },
   "NASDAQ": {
    "sym": "NASDAQ",
    "nom": "Nasdaq",
    "ticker": "^IXIC",
-   "date": "2026-11-18",
-   "prix": 24429.8809,
-   "var1j": 0.42,
-   "var1s": -4.07,
-   "var1m": -7.55,
-   "var3m": -6.28,
-   "var1a": 7.58,
-   "sma20": 25375.29,
-   "sma50": 26231.7965,
-   "sma200": 25152.2057,
-   "rsi": 37.1,
+   "date": "2026-11-19",
+   "prix": 24877.8008,
+   "var1j": 1.83,
+   "var1s": -1.92,
+   "var1m": -6.83,
+   "var3m": -4.98,
+   "var1a": 10.9,
+   "sma20": 25318.7371,
+   "sma50": 26207.7181,
+   "sma200": 25162.0718,
+   "rsi": 43.1,
    "tendance": "baissiere",
    "support": 23989.0898,
    "resistance": 26587.3398,
    "plusBas52s": 20690.25,
    "plusHaut52s": 27722.75,
-   "volatilite20j": 30.4,
+   "volatilite20j": 30.2,
    "sma50Pente": "baisse"
   },
   "DOW": {
    "sym": "DOW",
    "nom": "Dow Jones",
    "ticker": "^DJI",
-   "date": "2026-11-18",
-   "prix": 50198.1719,
-   "var1j": -1.11,
-   "var1s": -4.36,
-   "var1m": -4.38,
-   "var3m": -4.85,
-   "var1a": 7.74,
-   "sma20": 52033.2201,
-   "sma50": 51853.5654,
-   "sma200": 50782.2372,
-   "rsi": 36.0,
+   "date": "2026-11-19",
+   "prix": 50268.4414,
+   "var1j": 0.14,
+   "var1s": -3.88,
+   "var1m": -4.9,
+   "var3m": -5.65,
+   "var1a": 9.06,
+   "sma20": 51903.2432,
+   "sma50": 51817.6522,
+   "sma200": 50786.0729,
+   "rsi": 36.8,
    "tendance": "baissiere",
    "support": 50029.3516,
    "resistance": 53710.6094,
@@ -11118,22 +11405,22 @@
    "nom": "VIX (peur des marchés US)",
    "ticker": "^VIX",
    "date": "2026-11-19",
-   "prix": 22.65,
-   "var1j": -7.78,
-   "var1s": 21.12,
-   "var1m": 35.79,
-   "var3m": 42.9,
-   "var1a": -14.27,
-   "sma20": 20.5875,
-   "sma50": 17.9184,
-   "sma200": 18.5375,
-   "rsi": 54.8,
+   "prix": 22.48,
+   "var1j": -8.47,
+   "var1s": 20.21,
+   "var1m": 34.77,
+   "var3m": 41.83,
+   "var1a": -14.91,
+   "sma20": 20.579,
+   "sma50": 17.915,
+   "sma200": 18.5366,
+   "rsi": 54.5,
    "tendance": "haussiere",
    "support": 16.21,
    "resistance": 28.36,
    "plusBas52s": 13.38,
    "plusHaut52s": 35.3,
-   "volatilite20j": 299.7,
+   "volatilite20j": 300.1,
    "sma50Pente": "monte"
   },
   "US10Y": {
@@ -11141,22 +11428,22 @@
    "nom": "Taux US 10 ans",
    "ticker": "^TNX",
    "date": "2026-11-19",
-   "prix": 5.078,
-   "var1j": 0.24,
-   "var1s": -0.49,
-   "var1m": -1.32,
-   "var3m": 7.18,
-   "var1a": 23.16,
-   "sma20": 4.9918,
-   "sma50": 5.0786,
+   "prix": 5.085,
+   "var1j": 0.38,
+   "var1s": -0.35,
+   "var1m": -1.19,
+   "var3m": 7.32,
+   "var1a": 23.33,
+   "sma20": 4.9921,
+   "sma50": 5.0787,
    "sma200": 4.5996,
-   "rsi": 54.0,
-   "tendance": "neutre",
+   "rsi": 54.5,
+   "tendance": "haussiere",
    "support": 4.814,
    "resistance": 5.174,
    "plusBas52s": 3.956,
    "plusHaut52s": 5.364,
-   "volatilite20j": 16.8,
+   "volatilite20j": 16.9,
    "sma50Pente": "monte"
   },
   "EURUSD": {
@@ -11164,16 +11451,16 @@
    "nom": "Euro / dollar",
    "ticker": "EURUSD=X",
    "date": "2026-11-19",
-   "prix": 1.1002,
-   "var1j": 0.09,
-   "var1s": -0.84,
-   "var1m": -2.0,
-   "var3m": -5.81,
-   "var1a": -5.15,
+   "prix": 1.1005,
+   "var1j": 0.11,
+   "var1s": -0.82,
+   "var1m": -1.98,
+   "var3m": -5.79,
+   "var1a": -5.13,
    "sma20": 1.114,
    "sma50": 1.1258,
    "sma200": 1.1511,
-   "rsi": 30.8,
+   "rsi": 31.2,
    "tendance": "baissiere",
    "support": 1.0954,
    "resistance": 1.1275,
@@ -11185,5 +11472,133 @@
  },
  "erreurs": {
   "ANT": "pas assez de données"
+ },
+ "peurAvidite": {
+  "valeur": 10,
+  "label": "Extreme Fear",
+  "date": "2026-11-19",
+  "historique": [
+   [
+    "2026-10-21",
+    63
+   ],
+   [
+    "2026-10-22",
+    68
+   ],
+   [
+    "2026-10-23",
+    50
+   ],
+   [
+    "2026-10-24",
+    51
+   ],
+   [
+    "2026-10-25",
+    54
+   ],
+   [
+    "2026-10-26",
+    50
+   ],
+   [
+    "2026-10-27",
+    48
+   ],
+   [
+    "2026-10-28",
+    51
+   ],
+   [
+    "2026-10-29",
+    51
+   ],
+   [
+    "2026-10-30",
+    30
+   ],
+   [
+    "2026-10-31",
+    30
+   ],
+   [
+    "2026-11-01",
+    34
+   ],
+   [
+    "2026-11-02",
+    37
+   ],
+   [
+    "2026-11-03",
+    26
+   ],
+   [
+    "2026-11-04",
+    34
+   ],
+   [
+    "2026-11-05",
+    50
+   ],
+   [
+    "2026-11-06",
+    28
+   ],
+   [
+    "2026-11-07",
+    25
+   ],
+   [
+    "2026-11-08",
+    28
+   ],
+   [
+    "2026-11-09",
+    29
+   ],
+   [
+    "2026-11-10",
+    32
+   ],
+   [
+    "2026-11-11",
+    29
+   ],
+   [
+    "2026-11-12",
+    28
+   ],
+   [
+    "2026-11-13",
+    20
+   ],
+   [
+    "2026-11-14",
+    13
+   ],
+   [
+    "2026-11-15",
+    10
+   ],
+   [
+    "2026-11-16",
+    10
+   ],
+   [
+    "2026-11-17",
+    12
+   ],
+   [
+    "2026-11-18",
+    11
+   ],
+   [
+    "2026-11-19",
+    10
+   ]
+  ],
+  "source": "alternative.me (Crypto Fear & Greed Index)"
  }
 }
