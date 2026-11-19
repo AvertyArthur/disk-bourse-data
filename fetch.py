@@ -69,10 +69,12 @@ def analyse(item: dict, keep_closes: bool = True) -> dict:
     tail20 = df.tail(20)
     tail252 = df.tail(252)
     tend = "neutre"
+    pente = None if sma50_prev is None or sma[50] is None else (1 if sma[50] > sma50_prev else -1)
     if sma[50] and sma[200]:
-        if last > sma[50] > sma[200]:
+        # haussière : cours au-dessus des deux moyennes et moyenne 50 j qui monte ; baissière : l'inverse
+        if last > sma[50] and last > sma[200] and pente != -1:
             tend = "haussiere"
-        elif last < sma[50] < sma[200]:
+        elif last < sma[50] and last < sma[200] and pente != 1:
             tend = "baissiere"
     elif sma[50]:
         tend = "haussiere" if last > sma[50] * 1.02 else "baissiere" if last < sma[50] * 0.98 else "neutre"

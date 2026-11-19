@@ -1,25 +1,102 @@
 {
   "_aide": "sym = code utilisé dans l'appli Mon Desk Bourse ; ticker = code Yahoo Finance utilisé par OpenBB. Ajoute une ligne pour suivre une nouvelle valeur.",
   "valeurs": [
-    {"sym": "DCAM",  "nom": "Amundi PEA Monde (MSCI World)", "ticker": "DCAM.PA", "type": "etf"},
-    {"sym": "PSP5",  "nom": "Amundi PEA S&P 500 Screened", "ticker": "PSP5.PA", "type": "etf"},
-    {"sym": "SU",    "nom": "Schneider Electric", "ticker": "SU.PA", "type": "action"},
-    {"sym": "BNP",   "nom": "BNP Paribas", "ticker": "BNP.PA", "type": "action"},
-    {"sym": "LVMH",  "nom": "LVMH", "ticker": "MC.PA", "type": "action"},
-    {"sym": "NVDA",  "nom": "Nvidia", "ticker": "NVDA", "type": "action"},
-    {"sym": "ANT",   "nom": "Anthropic", "ticker": "ANT", "type": "action"},
-    {"sym": "BTC",   "nom": "Bitcoin", "ticker": "BTC-USD", "type": "crypto"},
-    {"sym": "ETH",   "nom": "Ethereum", "ticker": "ETH-USD", "type": "crypto"},
-    {"sym": "SOL",   "nom": "Solana", "ticker": "SOL-USD", "type": "crypto"}
+    {
+      "sym": "DCAM",
+      "nom": "Amundi PEA Monde (MSCI World)",
+      "ticker": "DCAM.PA",
+      "type": "etf"
+    },
+    {
+      "sym": "PSP5",
+      "nom": "Amundi PEA S&P 500 Screened",
+      "ticker": "PSP5.PA",
+      "type": "etf"
+    },
+    {
+      "sym": "SU",
+      "nom": "Schneider Electric",
+      "ticker": "SU.PA",
+      "type": "action"
+    },
+    {
+      "sym": "BNP",
+      "nom": "BNP Paribas",
+      "ticker": "BNP.PA",
+      "type": "action"
+    },
+    {
+      "sym": "LVMH",
+      "nom": "LVMH",
+      "ticker": "MC.PA",
+      "type": "action"
+    },
+    {
+      "sym": "NVDA",
+      "nom": "Nvidia",
+      "ticker": "NVDA",
+      "type": "action"
+    },
+    {
+      "sym": "ANT",
+      "nom": "Anthropic",
+      "ticker": "ANT",
+      "type": "action"
+    },
+    {
+      "sym": "BTC",
+      "nom": "Bitcoin",
+      "ticker": "BTC-USD",
+      "type": "crypto"
+    },
+    {
+      "sym": "ETH",
+      "nom": "Ethereum",
+      "ticker": "ETH-USD",
+      "type": "crypto"
+    },
+    {
+      "sym": "SOL",
+      "nom": "Solana",
+      "ticker": "SOL-USD",
+      "type": "crypto"
+    }
   ],
   "indices": [
-    {"sym": "CAC40",  "nom": "CAC 40", "ticker": "^FCHI"},
-    {"sym": "SBF120", "nom": "SBF 120", "ticker": "^SBF120"},
-    {"sym": "SP500",  "nom": "S&P 500", "ticker": "^GSPC"},
-    {"sym": "NASDAQ", "nom": "Nasdaq", "ticker": "^IXIC"},
-    {"sym": "DOW",    "nom": "Dow Jones", "ticker": "^DJI"},
-    {"sym": "VIX",    "nom": "VIX (peur des marchés US)", "ticker": "^VIX"},
-    {"sym": "US10Y",  "nom": "Taux US 10 ans", "ticker": "^TNX"},
-    {"sym": "EURUSD", "nom": "Euro / dollar", "ticker": "EURUSD=X"}
+    {
+      "sym": "CAC40",
+      "nom": "CAC 40",
+      "ticker": "^FCHI"
+    },
+    {
+      "sym": "SP500",
+      "nom": "S&P 500",
+      "ticker": "^GSPC"
+    },
+    {
+      "sym": "NASDAQ",
+      "nom": "Nasdaq",
+      "ticker": "^IXIC"
+    },
+    {
+      "sym": "DOW",
+      "nom": "Dow Jones",
+      "ticker": "^DJI"
+    },
+    {
+      "sym": "VIX",
+      "nom": "VIX (peur des marchés US)",
+      "ticker": "^VIX"
+    },
+    {
+      "sym": "US10Y",
+      "nom": "Taux US 10 ans",
+      "ticker": "^TNX"
+    },
+    {
+      "sym": "EURUSD",
+      "nom": "Euro / dollar",
+      "ticker": "EURUSD=X"
+    }
   ]
 }
