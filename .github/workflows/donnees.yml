@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "15 5 * * 1-5"   # 6h15 heure de Paris en hiver (7h15 en été), jours ouvrés
   workflow_dispatch: {}        # lancement manuel depuis l'onglet Actions
+  push:                        # relance quand le programme ou la liste des valeurs change
+    branches: [main]
+    paths: ["fetch.py", "symbols.json", "requirements.txt", ".github/workflows/donnees.yml"]
 
 permissions:
   contents: write
