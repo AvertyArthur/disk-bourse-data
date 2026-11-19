@@ -100,6 +100,60 @@ def analyse(item: dict, keep_closes: bool = True) -> dict:
     return out
 
 
+def fondamentaux(ticker: str) -> dict:
+    """Chiffres clés et avis des analystes (actions et ETF), via yfinance."""
+    import yfinance as yf
+    info = yf.Ticker(ticker).info or {}
+    def g(k, n=2):
+        v = info.get(k)
+        return None if v is None or (isinstance(v, float) and math.isnan(v)) else (round(float(v), n) if isinstance(v, (int, float)) else v)
+    rend = info.get("trailingAnnualDividendYield")
+    out = {
+        "nomComplet": info.get("longName") or info.get("shortName"),
+        "secteur": info.get("sector"), "pays": info.get("country"),
+        "per": g("trailingPE", 1), "perPrevu": g("forwardPE", 1),
+        "rendementDiv": round(rend * 100, 2) if isinstance(rend, (int, float)) and rend == rend else None,
+        "capitalisation": g("marketCap", 0),
+        "objectifAnalystes": g("targetMeanPrice"), "objectifBas": g("targetLowPrice"), "objectifHaut": g("targetHighPrice"),
+        "avisAnalystes": info.get("recommendationKey"), "nbAnalystes": g("numberOfAnalystOpinions", 0),
+        "frais": g("netExpenseRatio", 3) or g("annualReportExpenseRatio", 3),
+        "description": (info.get("longBusinessSummary") or "")[:400] or None,
+    }
+    return {k: v for k, v in out.items() if v not in (None, "", "none")}
+
+
+def actus(ticker: str, n: int = 4) -> list:
+    """Derniers articles de presse liés à la valeur (titre, source, date, lien)."""
+    import yfinance as yf
+    t = yf.Ticker(ticker)
+    try:
+        raw = t.get_news(count=n)
+    except Exception:
+        raw = t.news or []
+    out = []
+    for a in raw[:n]:
+        c = a.get("content", a)
+        url = (c.get("canonicalUrl") or {}).get("url") if isinstance(c.get("canonicalUrl"), dict) else c.get("link")
+        prov = (c.get("provider") or {}).get("displayName") if isinstance(c.get("provider"), dict) else c.get("publisher")
+        date = c.get("pubDate") or (dt.datetime.fromtimestamp(c["providerPublishTime"], dt.timezone.utc).isoformat() if c.get("providerPublishTime") else None)
+        if c.get("title"):
+            out.append({"titre": c.get("title"), "source": prov, "date": date, "url": url, "resume": (c.get("summary") or "")[:280] or None})
+    return out
+
+
+def peur_avidite() -> dict | None:
+    """Indice peur et avidité crypto (alternative.me, gratuit, sans clé) sur 30 jours."""
+    import requests
+    r = requests.get("https://api.alternative.me/fng/?limit=30", timeout=20)
+    r.raise_for_status()
+    data = r.json().get("data", [])
+    if not data:
+        return None
+    hist = [[dt.datetime.fromtimestamp(int(d["timestamp"]), dt.timezone.utc).strftime("%Y-%m-%d"), int(d["value"])] for d in data]
+    return {"valeur": int(data[0]["value"]), "label": data[0].get("value_classification"),
+            "date": hist[0][0], "historique": hist[::-1], "source": "alternative.me (Crypto Fear & Greed Index)"}
+
+
 def main():
     res = {"majLe": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "source": SOURCE,
            "valeurs": {}, "indices": {}, "erreurs": {}}
@@ -111,6 +165,21 @@ def main():
             except Exception as e:
                 print("  erreur :", e)
                 res["erreurs"][item["sym"]] = str(e)[:200]
+                continue
+            if group == "valeurs":
+                if item.get("type") in ("action", "etf"):
+                    try:
+                        res[key][item["sym"]]["fondamentaux"] = fondamentaux(item["ticker"])
+                    except Exception as e:
+                        print("  fondamentaux indisponibles :", e)
+                try:
+                    res[key][item["sym"]]["actus"] = actus(item["ticker"])
+                except Exception as e:
+                    print("  actus indisponibles :", e)
+    try:
+        res["peurAvidite"] = peur_avidite()
+    except Exception as e:
+        print("Peur et avidité indisponible :", e)
     (ROOT / "data").mkdir(exist_ok=True)
     (ROOT / "data" / "marche.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
     ok = len(res["valeurs"]) + len(res["indices"])
