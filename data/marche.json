@@ -1,34 +1,30 @@
 {
- "majLe": "2026-11-23T16:02:58+00:00",
+ "majLe": "2026-11-24T15:57:10+00:00",
  "source": "OpenBB (yfinance)",
  "valeurs": {
   "DCAM": {
    "sym": "DCAM",
    "nom": "Amundi PEA Monde (MSCI World)",
    "ticker": "DCAM.PA",
-   "date": "2026-11-23",
-   "prix": 6.145,
-   "var1j": 3.14,
-   "var1s": -2.55,
-   "var1m": -2.48,
-   "var3m": 0.02,
-   "var1a": 13.88,
-   "sma20": 6.2584,
-   "sma50": 6.2814,
-   "sma200": 5.9554,
-   "rsi": 44.0,
+   "date": "2026-11-24",
+   "prix": 6.062,
+   "var1j": -1.4,
+   "var1s": -1.78,
+   "var1m": -4.22,
+   "var3m": -1.67,
+   "var1a": 12.4,
+   "sma20": 6.2423,
+   "sma50": 6.2806,
+   "sma200": 5.9584,
+   "rsi": 40.0,
    "tendance": "neutre",
    "support": 5.958,
    "resistance": 6.415,
    "plusBas52s": 5.2,
    "plusHaut52s": 6.425,
-   "volatilite20j": 22.6,
+   "volatilite20j": 22.7,
    "sma50Pente": "monte",
    "closes": [
-    [
-     "2025-09-22",
-     5.21
-    ],
     [
      "2025-09-23",
      5.214
@@ -1223,12 +1219,16 @@
     ],
     [
      "2026-11-23",
-     6.145
+     6.148
+    ],
+    [
+     "2026-11-24",
+     6.062
     ]
    ],
    "fondamentaux": {
     "nomComplet": "Amundi PEA Monde (MSCI World) UCITS ETF",
-    "per": 21.1,
+    "per": 20.8,
     "rendementDiv": 0.0
    },
    "actus": []
@@ -1237,29 +1237,25 @@
    "sym": "PSP5",
    "nom": "Amundi PEA S&P 500 Screened",
    "ticker": "PSP5.PA",
-   "date": "2026-11-23",
-   "prix": 58.54,
-   "var1j": 3.52,
-   "var1s": -2.19,
-   "var1m": -2.66,
-   "var3m": 1.25,
-   "var1a": 13.91,
-   "sma20": 59.4715,
-   "sma50": 59.8104,
-   "sma200": 56.2494,
-   "rsi": 45.1,
+   "date": "2026-11-24",
+   "prix": 57.58,
+   "var1j": -1.74,
+   "var1s": -1.59,
+   "var1m": -4.7,
+   "var3m": -1.1,
+   "var1a": 12.17,
+   "sma20": 59.3045,
+   "sma50": 59.8084,
+   "sma200": 56.2844,
+   "rsi": 40.7,
    "tendance": "neutre",
    "support": 56.55,
    "resistance": 61.18,
    "plusBas52s": 48.555,
    "plusHaut52s": 61.56,
-   "volatilite20j": 25.3,
+   "volatilite20j": 25.7,
    "sma50Pente": "monte",
    "closes": [
-    [
-     "2025-09-22",
-     49.46
-    ],
     [
      "2025-09-23",
      49.491
@@ -2454,12 +2450,16 @@
     ],
     [
      "2026-11-23",
-     58.54
+     58.6
+    ],
+    [
+     "2026-11-24",
+     57.58
     ]
    ],
    "fondamentaux": {
     "nomComplet": "Amundi PEA S&P 500 UCITS ETF Acc",
-    "per": 23.0,
+    "per": 22.6,
     "rendementDiv": 0.0,
     "frais": 0.12
    },
@@ -2469,29 +2469,25 @@
    "sym": "SU",
    "nom": "Schneider Electric",
    "ticker": "SU.PA",
-   "date": "2026-11-23",
-   "prix": 235.7,
-   "var1j": 4.04,
-   "var1s": -2.42,
-   "var1m": 1.86,
-   "var3m": -21.22,
-   "var1a": 3.7,
-   "sma20": 237.8225,
-   "sma50": 257.845,
-   "sma200": 268.2033,
-   "rsi": 44.0,
+   "date": "2026-11-24",
+   "prix": 228.4,
+   "var1j": -3.16,
+   "var1s": -3.47,
+   "var1m": -3.1,
+   "var3m": -23.24,
+   "var1a": 0.09,
+   "sma20": 237.115,
+   "sma50": 256.91,
+   "sma200": 268.019,
+   "rsi": 39.3,
    "tendance": "baissiere",
    "support": 223.45,
    "resistance": 249.55,
    "plusBas52s": 223.45,
    "plusHaut52s": 312.3,
-   "volatilite20j": 35.9,
+   "volatilite20j": 36.0,
    "sma50Pente": "baisse",
    "closes": [
-    [
-     "2025-09-22",
-     230.0
-    ],
     [
      "2025-09-23",
      230.55
@@ -3686,17 +3682,21 @@
     ],
     [
      "2026-11-23",
-     235.7
+     235.85
+    ],
+    [
+     "2026-11-24",
+     228.4
     ]
    ],
    "fondamentaux": {
     "nomComplet": "Schneider Electric S.E.",
     "secteur": "Industrials",
     "pays": "France",
-    "per": 28.3,
-    "perPrevu": 18.7,
-    "rendementDiv": 1.85,
-    "capitalisation": 138505125888.0,
+    "per": 27.4,
+    "perPrevu": 18.1,
+    "rendementDiv": 1.78,
+    "capitalisation": 134156648448.0,
     "objectifAnalystes": 323.48,
     "objectifBas": 249.95,
     "objectifHaut": 370.0,
@@ -3739,29 +3739,25 @@
    "sym": "BNP",
    "nom": "BNP Paribas",
    "ticker": "BNP.PA",
-   "date": "2026-11-23",
-   "prix": 91.81,
-   "var1j": 2.52,
-   "var1s": -3.8,
-   "var1m": 9.93,
-   "var3m": -13.16,
-   "var1a": 26.91,
-   "sma20": 91.4505,
-   "sma50": 92.6254,
-   "sma200": 95.5086,
-   "rsi": 49.3,
+   "date": "2026-11-24",
+   "prix": 90.58,
+   "var1j": -0.98,
+   "var1s": -3.45,
+   "var1m": 5.88,
+   "var3m": -10.01,
+   "var1a": 23.42,
+   "sma20": 91.615,
+   "sma50": 92.4044,
+   "sma200": 95.5019,
+   "rsi": 45.7,
    "tendance": "baissiere",
-   "support": 84.92,
+   "support": 85.28,
    "resistance": 97.1,
-   "plusBas52s": 72.34,
+   "plusBas52s": 73.05,
    "plusHaut52s": 113.82,
-   "volatilite20j": 28.0,
+   "volatilite20j": 27.6,
    "sma50Pente": "baisse",
    "closes": [
-    [
-     "2025-09-22",
-     78.68
-    ],
     [
      "2025-09-23",
      78.93
@@ -4956,17 +4952,21 @@
     ],
     [
      "2026-11-23",
-     91.81
+     91.48
+    ],
+    [
+     "2026-11-24",
+     90.58
     ]
    ],
    "fondamentaux": {
     "nomComplet": "BNP Paribas SA",
     "secteur": "Financial Services",
     "pays": "France",
-    "per": 8.0,
-    "perPrevu": 7.1,
-    "rendementDiv": 6.48,
-    "capitalisation": 100623761408.0,
+    "per": 7.9,
+    "perPrevu": 7.0,
+    "rendementDiv": 6.34,
+    "capitalisation": 99275685888.0,
     "objectifAnalystes": 121.08,
     "objectifBas": 96.5,
     "objectifHaut": 142.0,
@@ -4976,32 +4976,32 @@
    },
    "actus": [
     {
-     "titre": "BNP Paribas sees ‘panic selling’ as the AI selloff drags the S&P 500 into a correction and wipes out the Nasdaq’s 2026 gains",
-     "source": "Fortune",
-     "date": "2026-11-20T21:38:50Z",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-sees-panic-selling-213850846.html",
-     "resume": "The S&P 500 and Dow slid more than 10% below their records Friday as the AI selloff spread. Some on Wall Street called it panic."
-    },
-    {
-     "titre": "Singapore’s DayOne pauses U.S. IPO plans amid AI market volatility - Bloomberg",
+     "titre": "BNP Paribas cuts Micron rating on risks to 2028 hyperscaler capacity plans",
      "source": "Investing.com",
-     "date": "2026-11-20T06:41:08Z",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/singapore-dayone-pauses-u-ipo-064108839.html",
-     "resume": "Investing.com-- Singapore-based data center operator DayOne Data Centers has put its plans for a multibillion-dollar U.S. initial public offering on hold as investor concerns over lofty valuations and volatility in AI-related stocks weigh on the sector, Bloomberg News reported on"
+     "date": "2026-11-24T14:53:04Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-cuts-micron-rating-145304912.html",
+     "resume": "Investing.com -- BNP Paribas downgraded Micron Technology to Neutral from Outperform on Tuesday and cut its price target to $775 from $1,700, warning that the risk of a memory chip oversupply is growing."
     },
     {
-     "titre": "BNP Paribas plans fewer branches and pivot to wealthier clients at BNL unit",
-     "source": "Private Banker International",
-     "date": "2026-11-19T11:59:51Z",
-     "url": "https://www.privatebankerinternational.com/news/bnp-paribas-bnl-wealthier-clients-branches/",
-     "resume": "Under plan, the subsidiary is pivoting its priorities towards corporate banking, private banking, and wealth management."
+     "titre": "MU Stock Downgraded, Price Target Cut By Almost $1,000: BNP Paribas Flags 2028 Hyperscaler Capacity Risks",
+     "source": "Stocktwits",
+     "date": "2026-11-24T14:49:14Z",
+     "url": "https://stocktwits.com/news-articles/markets/equity/mu-stock-downgraded-price-target-cut-by-almost-1-000-bnp-paribas-flags-2028-hyperscaler-capacity-risks/cNbsaFoR9ko",
+     "resume": "BNP Paribas analyst Karl Ackerman noted that HBM content is being reduced in Nvidia’s Vera Rubin Ultra, which could threaten supply and demand."
     },
     {
-     "titre": "BNP Paribas’ BNL targets over 20% return on equity by 2030 in strategy shift",
-     "source": "Investing.com",
-     "date": "2026-11-18T06:59:42Z",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-bnl-targets-over-065942247.html",
-     "resume": "Investing.com -- BNP Paribas’ (EPA:BNPP) Italian unit BNL aims to raise its pre-tax return on notional equity to more than 20% by 2030 by shifting its focus from mass-market retail banking towards wealth management, private and corporate banking, while keeping cost growth below i"
+     "titre": "Financial Services Roundup: Market Talk",
+     "source": "The Wall Street Journal",
+     "date": "2026-11-23T21:56:00Z",
+     "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-59d5ef65?siteid=yhoof2&yptr=yahoo",
+     "resume": "Find insight on France’s sovereign rating, Fitch Rating’s 2027 U.S. banks sector outlook, Saudi Arabia’s banking sector and more in the latest Market Talks covering Financial Services."
+    },
+    {
+     "titre": "Update: Market Chatter: UBS, Barclays, Other Banks Saddled With $1.31 Billion Debt as CVC Acquisition of Irca Falls Apart",
+     "source": "MT Newswires",
+     "date": "2026-11-23T17:43:04Z",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-ubs-barclays-other-174304315.html",
+     "resume": "(Updates to add HSBC's response in the sixth paragraph.) UBS Group (UBS) and Barclays (BCS) are p"
     }
    ]
   },
@@ -5009,29 +5009,25 @@
    "sym": "LVMH",
    "nom": "LVMH",
    "ticker": "MC.PA",
-   "date": "2026-11-23",
-   "prix": 388.5,
-   "var1j": 1.71,
-   "var1s": -3.84,
-   "var1m": 1.44,
-   "var3m": -14.39,
-   "var1a": -37.88,
-   "sma20": 397.2525,
-   "sma50": 394.162,
-   "sma200": 457.4135,
-   "rsi": 44.1,
+   "date": "2026-11-24",
+   "prix": 393.65,
+   "var1j": 1.25,
+   "var1s": 0.17,
+   "var1m": 2.14,
+   "var3m": -12.01,
+   "var1a": -37.26,
+   "sma20": 397.5375,
+   "sma50": 393.912,
+   "sma200": 456.7607,
+   "rsi": 48.2,
    "tendance": "baissiere",
    "support": 379.35,
    "resistance": 431.15,
    "plusBas52s": 375.65,
    "plusHaut52s": 654.3,
-   "volatilite20j": 25.9,
+   "volatilite20j": 26.2,
    "sma50Pente": "baisse",
    "closes": [
-    [
-     "2025-09-22",
-     507.0
-    ],
     [
      "2025-09-23",
      523.2
@@ -6226,17 +6222,21 @@
     ],
     [
      "2026-11-23",
-     388.5
+     388.8
+    ],
+    [
+     "2026-11-24",
+     393.65
     ]
    ],
    "fondamentaux": {
     "nomComplet": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
     "secteur": "Consumer Cyclical",
     "pays": "France",
-    "per": 17.5,
-    "perPrevu": 16.3,
-    "rendementDiv": 3.4,
-    "capitalisation": 190609817600.0,
+    "per": 17.9,
+    "perPrevu": 16.5,
+    "rendementDiv": 3.34,
+    "capitalisation": 193136558080.0,
     "objectifAnalystes": 491.36,
     "objectifBas": 415.0,
     "objectifHaut": 590.0,
@@ -6279,29 +6279,25 @@
    "sym": "NVDA",
    "nom": "Nvidia",
    "ticker": "NVDA",
-   "date": "2026-11-23",
-   "prix": 167.7,
-   "var1j": 33.59,
-   "var1s": 7.4,
-   "var1m": -20.51,
-   "var3m": -21.29,
-   "var1a": -7.16,
-   "sma20": 179.042,
-   "sma50": 206.1352,
-   "sma200": 203.2569,
-   "rsi": 44.1,
+   "date": "2026-11-24",
+   "prix": 152.94,
+   "var1j": -7.34,
+   "var1s": -1.62,
+   "var1m": -29.19,
+   "var3m": -27.05,
+   "var1a": -14.5,
+   "sma20": 175.6595,
+   "sma50": 204.8976,
+   "sma200": 203.0581,
+   "rsi": 38.7,
    "tendance": "baissiere",
    "support": 124.5,
    "resistance": 219.99,
    "plusBas52s": 124.5,
    "plusHaut52s": 243.37,
-   "volatilite20j": 143.6,
+   "volatilite20j": 138.5,
    "sma50Pente": "baisse",
    "closes": [
-    [
-     "2025-09-19",
-     176.67
-    ],
     [
      "2025-09-22",
      183.61
@@ -7484,52 +7480,56 @@
     ],
     [
      "2026-11-23",
-     167.7
+     165.05
+    ],
+    [
+     "2026-11-24",
+     152.94
     ]
    ],
    "fondamentaux": {
     "nomComplet": "NVIDIA Corporation",
     "secteur": "Technology",
     "pays": "United States",
-    "per": 18.0,
-    "perPrevu": 10.1,
-    "rendementDiv": 0.41,
-    "capitalisation": 4049693310976.0,
-    "objectifAnalystes": 244.18,
+    "per": 16.4,
+    "perPrevu": 9.2,
+    "rendementDiv": 0.32,
+    "capitalisation": 3693042204672.0,
+    "objectifAnalystes": 244.55,
     "objectifBas": 130.0,
     "objectifHaut": 425.0,
     "avisAnalystes": "buy",
-    "nbAnalystes": 56.0,
+    "nbAnalystes": 57.0,
     "description": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and"
    },
    "actus": [
     {
-     "titre": "Nvidia live updates: Jensen Huang reinstated as CEO;  Trump says no reason to believe Huang a national security risk",
-     "source": "Yahoo Finance",
-     "date": "2026-11-23T14:24:47Z",
-     "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-no-reason-to-believe-huang-a-national-security-risk-152429808.html",
-     "resume": "Nvidia's (NVDA) board on Monday announced that it has reinstated Jensen Huang as CEO and president of the chip giant."
-    },
-    {
-     "titre": "Trump celebrates Jensen Huang's return after pushing Nvidia for his reinstatement",
-     "source": "Yahoo Finance",
-     "date": "2026-11-23T14:35:05Z",
-     "url": "https://finance.yahoo.com/markets/article/trump-celebrates-jensen-huangs-return-after-pushing-nvidia-for-his-reinstatement-155421885.html",
-     "resume": "President Trump celebrated the return of Jensen Huang as Nvidia's CEO on Monday."
-    },
-    {
-     "titre": "Nvidia's $115B neocloud exposure and what its backstops really cover",
+     "titre": "What social media is saying about Jensen Huang's Nvidia comeback",
      "source": "Yahoo Finance Video",
-     "date": "2026-11-23T15:49:07Z",
-     "url": "https://finance.yahoo.com/video/nvidias-115b-neocloud-exposure-and-what-its-backstops-really-cover-154907019.html",
-     "resume": "In the Loop Host Ejaaz Ahamadeen deep dives into Nvidia's (NVDA) business model for financing neocloud operators and the backstops it guarantees."
+     "date": "2026-11-24T15:42:37Z",
+     "url": "https://finance.yahoo.com/video/what-social-media-is-saying-about-jensen-huangs-nvidia-comeback-154237606.html",
+     "resume": "Yahoo Finance Executive Editor Brian Sozzi breaks down the reactions he's receiving on X and LinkedIn to reports of Jensen Huang's reinstatement as Nvidia  (NVDA) CEO. Sozzi examines how sentiment differs across the two platforms"
     },
     {
-     "titre": "If Colette Kress leaves Nvidia, there'll be no one left to challenge Jensen Huang",
+     "titre": "Despite Jensen's return, Nvidia still needs to address several management issues",
      "source": "Yahoo Finance Video",
-     "date": "2026-11-23T15:39:05Z",
-     "url": "https://finance.yahoo.com/video/if-colette-kress-leaves-nvidia-therell-be-no-one-left-to-challenge-jensen-huang-153905050.html",
-     "resume": "Yahoo Finance Executive Editor Brian Sozzi chats with Julie Hyman about what Jensen Huang's return as Nvidia (NVDA) CEO means for interim CEO and longtime CFO Colette Kress."
+     "date": "2026-11-24T15:30:00Z",
+     "url": "https://finance.yahoo.com/video/despite-jensens-return-nvidia-still-153000278.html",
+     "resume": "Seaport Research Partners senior analyst Jay Goldberg and Creative Strategies CEO and principal analyst Ben Bajarin sit down with \"The 8:30\" hosts Julie Hyman and Jake Conley to share their thoughts on Jensen Huang's return to Nvidia (NVDA) as CEO."
+    },
+    {
+     "titre": "Who is holding Jensen Huang accountable at Nvidia now?",
+     "source": "Yahoo Finance Video",
+     "date": "2026-11-24T15:24:01Z",
+     "url": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-at-nvidia-now-152401001.html",
+     "resume": "\n\nYahoo Finance Executive Editor Brian Sozzi details Nvidia (NVDA) CFO Colette Kress' role in leading the company as interim CEO before Jensen Huang's reinstatement, commenting on whether Huang is being held accountable within the company since his return."
+    },
+    {
+     "titre": "Nvidia stock in focus: Why CEO comebacks are usually good for shares",
+     "source": "Yahoo Finance Video",
+     "date": "2026-11-24T15:13:07Z",
+     "url": "https://finance.yahoo.com/video/nvidia-stock-in-focus-why-ceo-comebacks-are-usually-good-for-shares-151307354.html",
+     "resume": "After Nvidia (NVDA) stock surged 31% following news of Jensen Huang's reinstatement as CEO, Yahoo Finance Executive Editor Brian Sozzi takes a closer look at what CEO comebacks have historically done for their respective stocks."
     }
    ]
   },
@@ -7537,9 +7537,9 @@
    "sym": "ANT",
    "nom": "Anthropic",
    "ticker": "ANT",
-   "date": "2026-11-23",
-   "prix": 87.725,
-   "var1j": -1.33,
+   "date": "2026-11-24",
+   "prix": 78.14,
+   "var1j": -10.84,
    "var1s": null,
    "var1m": null,
    "var3m": null,
@@ -7549,11 +7549,11 @@
    "sma200": null,
    "rsi": 0.0,
    "tendance": "neutre",
-   "support": 83.05,
+   "support": 77.1,
    "resistance": 115.1,
-   "plusBas52s": 83.05,
+   "plusBas52s": 77.1,
    "plusHaut52s": 115.1,
-   "volatilite20j": 80.5,
+   "volatilite20j": 77.8,
    "closes": [
     [
      "2026-11-19",
@@ -7565,51 +7565,55 @@
     ],
     [
      "2026-11-23",
-     87.725
+     87.64
+    ],
+    [
+     "2026-11-24",
+     78.14
     ]
    ],
    "fondamentaux": {
-    "nomComplet": "Anthropic, PBC Class A Common Stock",
+    "nomComplet": "Anthropic, PBC",
     "secteur": "Technology",
     "pays": "United States",
-    "perPrevu": 607.4,
+    "perPrevu": 199.9,
     "rendementDiv": 0.0,
-    "capitalisation": 1172655570944.0,
-    "objectifAnalystes": 118.17,
+    "capitalisation": 1044335755264.0,
+    "objectifAnalystes": 120.32,
     "objectifBas": 92.0,
     "objectifHaut": 155.0,
     "avisAnalystes": "buy",
-    "nbAnalystes": 9.0,
+    "nbAnalystes": 11.0,
     "description": "Anthropic, PBC develops and maintains advanced artificial intelligence (AI) models in the United States and internationally. The company's Claude Platform lets developers and businesses build, manage, and deploy agentic AI applications on infrastructure. Its direct applications and integrations include Claude Code, a coding agent that handles multi-step software development tasks; Claude Cowork, a"
    },
    "actus": [
     {
-     "titre": "Has Anthropic's turbulent post-IPO raised questions about its $900B compute bill?",
-     "source": "Yahoo Finance Video",
-     "date": "2026-11-23T14:20:36Z",
-     "url": "https://finance.yahoo.com/video/has-anthropics-turbulent-post-ipo-raised-questions-about-its-900b-compute-bill-142036541.html",
-     "resume": "Despite setting IPO history last Thursday, Anthropic's stock (ANT) faced some toughness in public markets, especially amid a sell-off in AI companies that rocked equities on Friday.\n\nThe 8:30 team is joined by Roundhill Investments chief investment strategist Drew Pettit to comme"
-    },
-    {
-     "titre": "A battered stock market looks for the bottom: What to watch this week",
+     "titre": "Anthropic stock drops below $83 IPO price as day-one pop vanishes",
      "source": "Yahoo Finance",
-     "date": "2026-11-22T10:00:00Z",
-     "url": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html",
-     "resume": "After a week headlined by the Anthropic IPO and the long-awaited release of GTA VI, the upcoming five-day stretch should be a bit calmer."
+     "date": "2026-11-24T14:34:38Z",
+     "url": "https://finance.yahoo.com/markets/article/anthropic-stock-drops-below-83-ipo-price-as-day-one-pop-vanishes-143438983.html",
+     "resume": "Anthropic broke its IPO price faster than all but two of the biggest IPOs since 2008."
     },
     {
-     "titre": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
-     "source": "Yahoo Finance Video",
-     "date": "2026-11-23T15:46:15Z",
-     "url": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-154615662.html",
-     "resume": "The 8:30 team is joined by Roundhill Investments Chief Investment Strategist Drew Pettit to discuss why washed-out sentiment doesn't mean a fundamental bottom, his $50-to-$250 bull-bear range on Anthropic, and how to handicap the \"Jensen premium\" coming back into Nvidia. Deirdre "
+     "titre": "Nvidia jumped 31% on Jensen Huang's return. A day later, the AI trade sold off: AlphaCheck",
+     "source": "Yahoo Finance",
+     "date": "2026-11-24T14:45:09Z",
+     "url": "https://finance.yahoo.com/markets/article/nvidia-leads-semiconductors-lower-alphacheck-144509267.html",
+     "resume": "Stocks declined on Tuesday as the semiconductor sector retreated."
     },
     {
-     "titre": "Anthropic's IPO Came With Demands That Caught Wall Street Off Guard",
-     "source": "GuruFocus.com",
-     "date": "2026-11-23T15:39:10Z",
-     "url": "https://finance.yahoo.com/technology/ai/articles/anthropics-ipo-came-demands-caught-153910562.html",
-     "resume": "Even Wall Street's biggest players faced unusual restrictions."
+     "titre": "Anthropic stock falls as Monday's tech rally takes off",
+     "source": "Yahoo Finance",
+     "date": "2026-11-23T17:27:16Z",
+     "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-falls-as-mondays-tech-rally-takes-off-194812614.html",
+     "resume": "Just two days after its public debut, the stock market's newest AI giant, Anthropic, is missing out on Monday's major tech rally."
+    },
+    {
+     "titre": "If Anthropic Does This It Could Reach $130 By Year End",
+     "source": "24/7 Wall St.",
+     "date": "2026-11-24T15:45:48Z",
+     "url": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/",
+     "resume": "Anthropic has traded for only three sessions and already sits below its first close, even as revenue explodes. Three things must go right in five weeks, and a tiny free float could decide whether the rebound arrives."
     }
    ]
   },
@@ -7617,29 +7621,25 @@
    "sym": "BTC",
    "nom": "Bitcoin",
    "ticker": "BTC-USD",
-   "date": "2026-11-23",
-   "prix": 62607.5781,
-   "var1j": 2.36,
-   "var1s": -0.6,
-   "var1m": -18.35,
-   "var3m": -27.71,
-   "var1a": -16.37,
-   "sma20": 68583.0547,
-   "sma50": 76186.4669,
-   "sma200": 72239.0678,
-   "rsi": 32.1,
+   "date": "2026-11-24",
+   "prix": 59851.9609,
+   "var1j": -2.22,
+   "var1s": -3.31,
+   "var1m": -22.62,
+   "var3m": -30.54,
+   "var1a": -19.03,
+   "sma20": 67485.5586,
+   "sma50": 75639.8423,
+   "sma200": 72130.4108,
+   "rsi": 25.0,
    "tendance": "baissiere",
    "support": 55149.5664,
-   "resistance": 81079.7891,
+   "resistance": 80833.6172,
    "plusBas52s": 55149.5664,
    "plusHaut52s": 87363.7578,
-   "volatilite20j": 45.4,
+   "volatilite20j": 39.6,
    "sma50Pente": "baisse",
    "closes": [
-    [
-     "2026-01-28",
-     89184.5703
-    ],
     [
      "2026-01-29",
      84561.5859
@@ -8834,37 +8834,41 @@
     ],
     [
      "2026-11-23",
-     62607.5781
+     61210.9844
+    ],
+    [
+     "2026-11-24",
+     59851.9609
     ]
    ],
    "actus": [
     {
-     "titre": "Strategy and Crypto Stocks Rally as Bitcoin Rebounds Past $63,000. Is the Jump Temporary?",
-     "source": "Barrons.com",
-     "date": "2026-11-23T15:36:00Z",
-     "url": "https://www.barrons.com/articles/bitcoin-prices-crypto-stock-strategy-robinhood-e5388148?siteid=yhoof2&yptr=yahoo",
-     "resume": "Cryptocurrency stocks rally after a strong weekend for Bitcoin and as Wall Street gets a sharp lift from the reinstatement of Jensen Huang as CEO of Nvidia."
+     "titre": "Is Michael Saylor's bitcoin strategy losing its appeal?",
+     "source": "Yahoo Finance Video",
+     "date": "2026-11-24T15:16:03Z",
+     "url": "https://finance.yahoo.com/video/is-michael-saylors-bitcoin-strategy-losing-its-appeal-151603542.html",
+     "resume": "As Strategy (MSTR) valuation reportedly dips below the value of its bitcoin (BTC-USD) holdings. \"The 8:30\" hosts Julie Hyman and Jake Conley welcome Barron's reporter Jacob Sonenshine to discuss Michael Saylor's strategy. Raising a bigger question: Are investors buying into the b"
     },
     {
-     "titre": "Strive Skips Bitcoin Buying and Stock Sales for a Week, Leaving Treasury at 43,404 BTC",
-     "source": "Unchained",
-     "date": "2026-11-23T15:30:57Z",
-     "url": "https://unchainedcrypto.com/strive-skips-bitcoin-buying-and-stock-sales-for-a-week-leaving-treasury-at-43404-btc/",
-     "resume": "The bitcoin treasury company sold no stock through its at-the-market programs in the week to Nov. 20, after buying 251 BTC the week before."
+     "titre": "Stocks give back gains as Anthropic dips below IPO price",
+     "source": "Yahoo Finance Video",
+     "date": "2026-11-24T15:44:08Z",
+     "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html",
+     "resume": "Hosts Julie Hyman and Jake Conley, joined on the couch by Barron's markets reporter Jacob Sonenshine, tackle the top stories of the day. Including futures sliding after Monday's biggest rally since April 2025, Anthropic briefly trading below its $83 IPO price, a Wall Street Journ"
     },
     {
-     "titre": "Nvidia, Arm, Anthropic, CrowdStrike, Zscaler, UnitedHealth, and More Stocks That Explain Today’s Market",
-     "source": "Barrons.com",
-     "date": "2026-11-23T15:11:00Z",
-     "url": "https://www.barrons.com/articles/stock-movers-901d6342?siteid=yhoof2&yptr=yahoo",
-     "resume": "Nvidia surges after saying it will reinstate Jensen Huang as CEO following his resignation earlier this month."
+     "titre": "Gemini AI Predicts a Wild BTC Recovery if This Catalyst Lands",
+     "source": "99bitcoins",
+     "date": "2026-11-24T15:43:51Z",
+     "url": "https://99bitcoins.com/news/bitcoin-btc/gemini-ai-predicts-a-wild-btc-recovery-if-this-catalyst-lands/",
+     "resume": "Bitcoin is positioning for one of the most violent upside explosions in its history. What looks like weakness today could be the final shakeout before a vertical move that redefines the asset’s valuation by the first trading day of 2027. Google Gemini AI predicts that the tide co"
     },
     {
-     "titre": "US Stocks, Gold and Bitcoin Rebound Together: Why Is Fear Still Stuck at 11?",
-     "source": "BeInCrypto",
-     "date": "2026-11-23T14:47:45Z",
-     "url": "https://beincrypto.com/stocks-gold-bitcoin-rebound-fear-gauges/",
-     "resume": "US stocks, gold and Bitcoin rebound together, yet fear gauges sit at 11. Here is what the gauges measure and why."
+     "titre": "USDT Market Cap Drops, Raising Doubts About a Lasting Bitcoin Recovery",
+     "source": "CCN",
+     "date": "2026-11-24T15:02:16Z",
+     "url": "https://www.ccn.com/news/crypto/usdt-market-cap-drop-bitcoin-recovery/",
+     "resume": "USDT's market capitalization fell by $8.83 billion over the 60 days through Nov. 22, signaling weakening crypto liquidity. The continued decline in USDT's liquidity indicators…"
     }
    ]
   },
@@ -8872,29 +8876,25 @@
    "sym": "ETH",
    "nom": "Ethereum",
    "ticker": "ETH-USD",
-   "date": "2026-11-23",
-   "prix": 1763.09,
-   "var1j": 2.44,
-   "var1s": -0.66,
-   "var1m": -21.6,
-   "var3m": -36.5,
-   "var1a": -25.01,
-   "sma20": 1949.685,
-   "sma50": 2226.7797,
-   "sma200": 2119.6314,
-   "rsi": 34.0,
+   "date": "2026-11-24",
+   "prix": 1681.01,
+   "var1j": -1.63,
+   "var1s": -4.23,
+   "var1m": -26.04,
+   "var3m": -38.93,
+   "var1a": -27.48,
+   "sma20": 1909.9079,
+   "sma50": 2205.0945,
+   "sma200": 2116.2304,
+   "rsi": 28.3,
    "tendance": "baissiere",
    "support": 1538.6019,
-   "resistance": 2446.0479,
+   "resistance": 2434.4277,
    "plusBas52s": 1506.5057,
    "plusHaut52s": 2805.499,
-   "volatilite20j": 64.8,
+   "volatilite20j": 56.1,
    "sma50Pente": "baisse",
    "closes": [
-    [
-     "2026-01-28",
-     3006.6074
-    ],
     [
      "2026-01-29",
      2818.2327
@@ -10089,37 +10089,41 @@
     ],
     [
      "2026-11-23",
-     1763.09
+     1708.8513
+    ],
+    [
+     "2026-11-24",
+     1681.01
     ]
    ],
    "actus": [
     {
-     "titre": "Bitmine Could Hit Its 5% Ether Goal in Under a Month at Its Current Buying Pace",
+     "titre": "Ansem Says His Solana Wallet Was Hacked Through His Bullpen Profile; Some Analysts Doubt It",
      "source": "Unchained",
-     "date": "2026-11-23T16:00:08Z",
-     "url": "https://unchainedcrypto.com/bitmine-could-hit-its-5-ether-goal-in-under-a-month-at-its-current-buying-pace/",
-     "resume": "Tom Lee’s ether treasury firm now holds 6.09 million ETH, while a lower ether price cut the value of its total holdings to $11.1 billion."
+     "date": "2026-11-24T15:00:17Z",
+     "url": "https://unchainedcrypto.com/ansem-says-his-solana-wallet-was-hacked-through-his-bullpen-profile-some-analysts-doubt-it/",
+     "resume": "The crypto trader said he believes someone got into his profile on Bullpen, a trading app he co-founded, where he had imported a Solana private key, a claim some onchain researchers dispute."
     },
     {
-     "titre": "BlackRock ETF Dumps 1 Million ETH Worth $1.75B as Ethereum Outflows Accelerate: Is ETH In Trouble?",
-     "source": "Coinspeaker",
-     "date": "2026-11-23T15:16:47Z",
-     "url": "https://www.coinspeaker.com/blackrock-etf-etha-ether-outflows/",
-     "resume": "The BlackRock ETF has shed more than 1 million ETH since October 1, recording net outflows of 1,018,839 ETH worth approximately $1.75 billion. The selling continued on Monday, as BlackRock’s iShares Ethereum Trust (ETHA) transferred another batch of coins to Coinbase Prime. Betwe"
-    },
-    {
-     "titre": "Bitmine On Verge Of Owning 5% Of Ethereum After Latest Purchase",
+     "titre": "Ethereum Foundation Doubles Security Team And Calls A.I. ‘Urgent Risk’",
      "source": "CryptoProwl",
-     "date": "2026-11-23T14:38:00Z",
-     "url": "https://www.cryptoprowl.com/releases/bitmine-on-verge-of-owning-5-of-ethereum-after-latest-purchase-8026",
-     "resume": "Bitmine Immersion Technologies (NYSE: $BMNR) is on the verge of reaching its stated goal of owning 5% of Ethereum&r..."
+     "date": "2026-11-24T14:42:00Z",
+     "url": "https://www.cryptoprowl.com/releases/ethereum-foundation-doubles-security-team-and-calls-ai-urgent-risk-8042",
+     "resume": "The Ethereum Foundation (CRYPTO: $ETH) has doubled its security protocol team and called artificial intelligence (A..."
     },
     {
-     "titre": "Bitcoin Crash Leaves Strategy $12B and Bitmine $10B Underwater: How Much Worse Can It Get?",
-     "source": "Coinspeaker",
-     "date": "2026-11-23T14:26:24Z",
-     "url": "https://www.coinspeaker.com/strategy-mstr-bitmine-stock-bitcoin-55k/",
-     "resume": "Strategy MSTR stock closed at $77.80 on Friday, November 20, its lowest close in at least two years, after a crypto sell-off sent Bitcoin (BTC) toward $55,000. Tom Lee’s Bitmine Immersion (BMNR) fell 14% the same day to $12.98. Both stocks have fallen harder than the coins they h"
+     "titre": "Bitcoin News: CFTC Decision to Push BTC Toward $80K?",
+     "source": "Cryptonews",
+     "date": "2026-11-24T14:41:31Z",
+     "url": "https://cryptonews.com/news/bitcoin-news-cftc-decision-btc-80000/",
+     "resume": "Bitcoin road back toward $80,000 may have a new catalyst after news from US regulators. CFTC has opened another door for crypto inside traditional financial markets. CFTC says regulated derivatives exchanges and clearinghouses can count Bitcoin toward certain financial requiremen"
+    },
+    {
+     "titre": "These 4 Cryptocurrencies Could See the Biggest Gains in 2027, According to BitMEX Co-Founder Arthur Hayes",
+     "source": "Motley Fool",
+     "date": "2026-11-24T14:20:02Z",
+     "url": "https://www.fool.com/investing/2026/11/24/these-4-cryptocurrencies-could-see-the-biggest-gains-in-2027-according-to-bitmex-co-founder-arthur-hayes/",
+     "resume": "Arthur Hayes' \"Four Horsemen\" cryptocurrencies all touch the privacy segment in one way or another."
     }
    ]
   },
@@ -10127,29 +10131,25 @@
    "sym": "SOL",
    "nom": "Solana",
    "ticker": "SOL-USD",
-   "date": "2026-11-23",
-   "prix": 75.25,
-   "var1j": 6.63,
-   "var1s": 2.21,
-   "var1m": -18.06,
-   "var3m": -36.63,
-   "var1a": -21.8,
-   "sma20": 79.2214,
-   "sma50": 94.2784,
-   "sma200": 88.2561,
-   "rsi": 38.5,
+   "date": "2026-11-24",
+   "prix": 69.21,
+   "var1j": -3.85,
+   "var1s": -5.28,
+   "var1m": -25.52,
+   "var3m": -41.6,
+   "var1a": -26.92,
+   "sma20": 77.7441,
+   "sma50": 93.1822,
+   "sma200": 88.1261,
+   "rsi": 28.7,
    "tendance": "baissiere",
    "support": 65.2031,
-   "resistance": 97.6954,
+   "resistance": 96.9288,
    "plusBas52s": 60.4147,
    "plusHaut52s": 124.6174,
-   "volatilite20j": 65.0,
+   "volatilite20j": 58.4,
    "sma50Pente": "baisse",
    "closes": [
-    [
-     "2026-01-28",
-     125.1184
-    ],
     [
      "2026-01-29",
      117.6058
@@ -11344,37 +11344,41 @@
     ],
     [
      "2026-11-23",
-     75.25
+     71.9818
+    ],
+    [
+     "2026-11-24",
+     69.21
     ]
    ],
    "actus": [
     {
-     "titre": "Solana Meme Coin for Fiona the Hippo Raises $100K for Cincinnati Zoo Charity",
-     "source": "decrypt",
-     "date": "2026-11-23T12:43:30Z",
-     "url": "https://decrypt.co/383762/solana-meme-coin-for-fiona-the-hippo-sends-100k-to-cincinnati-zoo-charity",
-     "resume": "A meme coin honoring the Cincinnati Zoo's late pygmy hippo has sent its creator rewards to the zoo's nonprofit."
+     "titre": "Ansem Says His Solana Wallet Was Hacked Through His Bullpen Profile; Some Analysts Doubt It",
+     "source": "Unchained",
+     "date": "2026-11-24T15:00:17Z",
+     "url": "https://unchainedcrypto.com/ansem-says-his-solana-wallet-was-hacked-through-his-bullpen-profile-some-analysts-doubt-it/",
+     "resume": "The crypto trader said he believes someone got into his profile on Bullpen, a trading app he co-founded, where he had imported a Solana private key, a claim some onchain researchers dispute."
     },
     {
-     "titre": "Bitcoin rebounds above $63,000 after liquidation-driven selloff",
+     "titre": "Hack or Sell-Off? Ansem's Wallet Dumps $2 Million as His Meme Coin Crashes 40%",
+     "source": "BeInCrypto",
+     "date": "2026-11-24T11:15:04Z",
+     "url": "https://beincrypto.com/ansem-meme-coin-plunges-wallet-hack/",
+     "resume": "ANSEM meme coin drops 40% after Ansem's wallet sells. He blames a hack, but on-chain analysts are split on what happened."
+    },
+    {
+     "titre": "Meme Coin Dominance Hits a Record Low. Why Are Buyers Walking Away?",
+     "source": "BeInCrypto",
+     "date": "2026-11-24T09:26:35Z",
+     "url": "https://beincrypto.com/binance-altcoins-meme-coins-downtrend/",
+     "resume": "Meme coin dominance fell below 3% of the altcoin market, a record low, as Binance selling outpaced buying by $1.5 billion."
+    },
+    {
+     "titre": "Bitcoin retreats to $60k amid rate, regulatory jitters",
      "source": "Investing.com",
-     "date": "2026-11-23T07:43:18Z",
-     "url": "https://finance.yahoo.com/news/bitcoin-rebounds-above-61-000-074318978.html",
-     "resume": "Investing.com-- Bitcoin climbed back above $63,000 on Monday after a sharp weekend selloff triggered a wave of liquidations, as investors assessed mounting pressure on global technology stocks and uncertainty over the Federal Reserve’s interest-rate outlook."
-    },
-    {
-     "titre": "Crypto Market Today, Nov. 22: Bitcoin Reclaims $60,000 After $1.8 Billion Liquidation Wipeout. Is the Worst Over?",
-     "source": "Motley Fool",
-     "date": "2026-11-22T22:40:02Z",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/22/crypto-market-today-nov-22-bitcoin-reclaims-usd60-000-after-usd1-8-billion-liquidation-wipeout-is-the-worst-over/",
-     "resume": "Cryptocurrencies are attempting to stabilize following a brutal wave of forced liquidations, but the reopening of U.S. equity markets could determine whether the recovery gains momentum or quickly fades."
-    },
-    {
-     "titre": "Elon Musk’s Grok AI Predicts Best and Worst Crypto in 2027: Who Are They?",
-     "source": "99bitcoins",
-     "date": "2026-11-22T15:47:43Z",
-     "url": "https://99bitcoins.com/news/altcoins/elon-musk-grok-ai-predicts-best-worst-crypto-2027/",
-     "resume": "We asked Elon Musk’s AI bot a very important question. Which cryptocurrency will perform best, and which worst, among the major tokens in 2027? Grok AI predicts that two very well-known tokens fit this bill, but how likely is it to play out this way? As 2026 draws to a ..."
+     "date": "2026-11-24T06:44:23Z",
+     "url": "https://finance.yahoo.com/news/bitcoin-hovers-around-60k-amid-064423052.html",
+     "resume": "Investing.com-- Bitcoin retreated to $60,000 on Tuesday, hovering close to recent two-year lows as traders largely overlooked cryptocurrencies amid a broader rebound in equity markets."
     }
    ]
   }
@@ -11384,19 +11388,19 @@
    "sym": "CAC40",
    "nom": "CAC 40",
    "ticker": "^FCHI",
-   "date": "2026-11-23",
-   "prix": 8036.8701,
-   "var1j": 1.38,
-   "var1s": -3.77,
-   "var1m": 3.26,
-   "var3m": -5.03,
-   "var1a": -0.74,
-   "sma20": 8131.9891,
-   "sma50": 8020.1298,
-   "sma200": 8202.9495,
-   "rsi": 46.3,
+   "date": "2026-11-24",
+   "prix": 8052.73,
+   "var1j": 0.1,
+   "var1s": -2.0,
+   "var1m": 2.62,
+   "var3m": -3.21,
+   "var1a": -0.58,
+   "sma20": 8140.667,
+   "sma50": 8019.5382,
+   "sma200": 8201.5502,
+   "rsi": 47.2,
    "tendance": "neutre",
-   "support": 7810.9199,
+   "support": 7870.75,
    "resistance": 8401.8604,
    "plusBas52s": 7505.27,
    "plusHaut52s": 8755.0303,
@@ -11407,63 +11411,63 @@
    "sym": "SP500",
    "nom": "S&P 500",
    "ticker": "^GSPC",
-   "date": "2026-11-23",
-   "prix": 7245.6299,
-   "var1j": 4.85,
-   "var1s": -2.31,
-   "var1m": -4.96,
-   "var3m": -5.62,
-   "var1a": 10.81,
-   "sma20": 7477.6745,
-   "sma50": 7617.7694,
-   "sma200": 7350.147,
-   "rsi": 41.7,
+   "date": "2026-11-24",
+   "prix": 7180.21,
+   "var1j": -0.79,
+   "var1s": -2.18,
+   "var1m": -6.47,
+   "var3m": -6.46,
+   "var1a": 8.74,
+   "sma20": 7450.132,
+   "sma50": 7609.4898,
+   "sma200": 7351.1816,
+   "rsi": 39.7,
    "tendance": "baissiere",
    "support": 6882.6602,
    "resistance": 7758.4302,
    "plusBas52s": 6316.9102,
    "plusHaut52s": 7844.52,
-   "volatilite20j": 32.2,
+   "volatilite20j": 31.8,
    "sma50Pente": "baisse"
   },
   "NASDAQ": {
    "sym": "NASDAQ",
    "nom": "Nasdaq",
    "ticker": "^IXIC",
-   "date": "2026-11-23",
-   "prix": 24118.4922,
-   "var1j": 6.64,
-   "var1s": -1.6,
-   "var1m": -7.08,
-   "var3m": -7.77,
-   "var1a": 9.24,
-   "sma20": 24999.3821,
-   "sma50": 26072.0816,
-   "sma200": 25162.9009,
-   "rsi": 42.0,
+   "date": "2026-11-24",
+   "prix": 23639.9609,
+   "var1j": -1.87,
+   "var1s": -2.83,
+   "var1m": -9.67,
+   "var3m": -9.53,
+   "var1a": 6.14,
+   "sma20": 24856.0431,
+   "sma50": 26024.6707,
+   "sma200": 25164.7627,
+   "rsi": 39.0,
    "tendance": "baissiere",
    "support": 22513.0098,
    "resistance": 26587.3398,
    "plusBas52s": 20690.25,
    "plusHaut52s": 27722.75,
-   "volatilite20j": 43.1,
+   "volatilite20j": 42.7,
    "sma50Pente": "baisse"
   },
   "DOW": {
    "sym": "DOW",
    "nom": "Dow Jones",
    "ticker": "^DJI",
-   "date": "2026-11-23",
-   "prix": 49593.9414,
-   "var1j": 3.0,
-   "var1s": -3.9,
-   "var1m": -5.02,
-   "var3m": -7.43,
-   "var1a": 8.4,
-   "sma20": 51502.9006,
-   "sma50": 51649.1602,
-   "sma200": 50773.8004,
-   "rsi": 39.2,
+   "date": "2026-11-24",
+   "prix": 49739.5,
+   "var1j": 0.29,
+   "var1s": -2.01,
+   "var1m": -5.01,
+   "var3m": -6.97,
+   "var1a": 7.56,
+   "sma20": 51371.0654,
+   "sma50": 51602.1153,
+   "sma200": 50771.8253,
+   "rsi": 40.3,
    "tendance": "baissiere",
    "support": 47998.8594,
    "resistance": 53710.6094,
@@ -11476,69 +11480,69 @@
    "sym": "VIX",
    "nom": "VIX (peur des marchés US)",
    "ticker": "^VIX",
-   "date": "2026-11-23",
-   "prix": 27.47,
-   "var1j": -23.46,
-   "var1s": 19.9,
-   "var1m": 41.23,
-   "var3m": 80.6,
-   "var1a": 33.87,
-   "sma20": 22.153,
-   "sma50": 18.6426,
-   "sma200": 18.7075,
-   "rsi": 57.0,
+   "date": "2026-11-24",
+   "prix": 28.15,
+   "var1j": 5.75,
+   "var1s": 10.57,
+   "var1m": 53.07,
+   "var3m": 94.0,
+   "var1a": 51.67,
+   "sma20": 22.642,
+   "sma50": 18.8446,
+   "sma200": 18.7557,
+   "rsi": 57.6,
    "tendance": "haussiere",
    "support": 15.39,
    "resistance": 40.03,
    "plusBas52s": 13.38,
    "plusHaut52s": 40.03,
-   "volatilite20j": 325.5,
+   "volatilite20j": 326.8,
    "sma50Pente": "monte"
   },
   "US10Y": {
    "sym": "US10Y",
    "nom": "Taux US 10 ans",
    "ticker": "^TNX",
-   "date": "2026-11-23",
-   "prix": 4.948,
-   "var1j": 0.73,
-   "var1s": -3.38,
-   "var1m": -0.8,
-   "var3m": 6.66,
-   "var1a": 20.51,
-   "sma20": 4.9848,
-   "sma50": 5.0766,
-   "sma200": 4.6066,
-   "rsi": 44.4,
+   "date": "2026-11-24",
+   "prix": 4.9,
+   "var1j": -0.37,
+   "var1s": -3.98,
+   "var1m": -1.72,
+   "var3m": 5.06,
+   "var1a": 20.6,
+   "sma20": 4.9787,
+   "sma50": 5.074,
+   "sma200": 4.61,
+   "rsi": 40.7,
    "tendance": "neutre",
    "support": 4.814,
    "resistance": 5.174,
    "plusBas52s": 3.956,
    "plusHaut52s": 5.364,
-   "volatilite20j": 19.8,
+   "volatilite20j": 19.6,
    "sma50Pente": "monte"
   },
   "EURUSD": {
    "sym": "EURUSD",
    "nom": "Euro / dollar",
    "ticker": "EURUSD=X",
-   "date": "2026-11-23",
-   "prix": 1.0902,
-   "var1j": -0.62,
-   "var1s": -1.12,
-   "var1m": -2.85,
-   "var3m": -6.62,
-   "var1a": -6.08,
-   "sma20": 1.111,
-   "sma50": 1.123,
-   "sma200": 1.1501,
-   "rsi": 23.5,
+   "date": "2026-11-24",
+   "prix": 1.0975,
+   "var1j": 0.03,
+   "var1s": -0.22,
+   "var1m": -2.17,
+   "var3m": -5.84,
+   "var1a": -5.62,
+   "sma20": 1.1104,
+   "sma50": 1.122,
+   "sma200": 1.1497,
+   "rsi": 28.7,
    "tendance": "baissiere",
-   "support": 1.0897,
+   "support": 1.0884,
    "resistance": 1.1275,
-   "plusBas52s": 1.0897,
+   "plusBas52s": 1.0884,
    "plusHaut52s": 1.2024,
-   "volatilite20j": 5.9,
+   "volatilite20j": 5.5,
    "sma50Pente": "baisse"
   }
  },
@@ -11546,12 +11550,8 @@
  "peurAvidite": {
   "valeur": 11,
   "label": "Extreme Fear",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "historique": [
-   [
-    "2026-10-25",
-    54
-   ],
    [
     "2026-10-26",
     50
@@ -11666,6 +11666,10 @@
    ],
    [
     "2026-11-23",
+    11
+   ],
+   [
+    "2026-11-24",
     11
    ]
   ],
